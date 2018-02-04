@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APRIANIL_1202150082_Modul1</string>
+    <string name="title_header">Makan Malam</string>
+    <string name="dengan_siapa">Dengan Milea</string>
+    <string name="qty">Quantity</string>
+    <string name="location_1">EATBUS</string>
+    <string name="location_2">Abnormal</string>
+    <string name="input_makanan">Nama makanan</string>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>

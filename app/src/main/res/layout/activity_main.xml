@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/vertical_layout"
+    android:paddingLeft="@dimen/vertical_layout"
+    android:paddingTop="@dimen/horizontal_layout"
+    android:paddingBottom="@dimen/horizontal_layout"
+    tools:context="com.example.namasa.aprianil_1202150082_modul1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/title_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_header"
+            android:textSize="@dimen/title_header"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/milea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dengan_siapa"
+            android:textAlignment="center"/>
+        <!--nama makanan dan minuman-->
+        <EditText
+            android:id="@+id/makanan"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_makanan"/>
+        <EditText
+            android:id="@+id/qty"
+            android:layout_marginTop="40dp"
+            android:hint="@string/qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/eatbus"
+                android:layout_width="120dp"
+                android:layout_marginTop="35dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/location_1"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/abnormal"
+                android:layout_width="120dp"
+                android:layout_marginTop="35dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorAccent"
+                android:text="@string/location_2"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

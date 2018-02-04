@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/vertical_layout"
+    android:paddingLeft="@dimen/vertical_layout"
+    android:paddingTop="@dimen/horizontal_layout"
+    android:paddingBottom="@dimen/horizontal_layout"
+    tools:context="com.example.namasa.aprianil_1202150082_modul1.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makan Malam"
+            android:textSize="@dimen/title_header"
+
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dengan Milea"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Makanan"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/porsi"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porsi"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qty"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            />
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
